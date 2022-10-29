@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "iphone 13",
+      "cate": "iphone",
+      "des": "uwf nhir\n",
+      "price": "5000",
+      "rawprice": "2000",
+      "rating": "5",
+      "id": 1
+    },
+    {
+      "name": "android super X13",
+      "cate": "android",
+      "des": "rete435 34534 5",
+      "price": "5555",
+      "rawprice": "400",
+      "rating": "4",
+      "id": 2
+    },
+    {
+      "name": "432 b43i io34",
+      "cate": "iphone",
+      "des": "term te4534",
+      "price": "3400",
+      "rawprice": "1000",
+      "rating": "2",
+      "id": 3
+    },
+    {
+      "name": "534534",
+      "cate": "android",
+      "des": "564565",
+      "price": "6546",
+      "rawprice": "45435",
+      "rating": "5",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>show</title>
+     <style>
+          tr th,
+          tr td {
+               padding: 20px;
+               text-align: center;
+               border: 2px solid;
+          }
+
+          span {
+               display: block;
+          }
+     </style>
+</head>
+
+<body>
+     <h2>PH19078 - Nguyễn Văn Tuấn</h2>
+     <div class="">
+          <input type="search" name="" id="search" placeholder="search">
+     </div>
+     <br>
+     <br>
+     <div class="" style="display: flex;">
+          <div class="" style="border: 2px solid; padding: 20px;">
+               <h3>Danh mục sản phẩm</h3>
+
+               <div class="">
+                    <span>Danh mục</span>
+                    <select id="cate" class="inpField">
+                         <option>iphone</option>
+                         <option>android</option>
+                         <option>other</option>
+                    </select>
+                    <span style="color: red"></span>
+               </div>
+          </div>
+          <div class="" style="margin-left:30px; border: 2px solid; padding: 20px;">
+               <h3>Danh sách sản phẩm</h3>
+               <br>
+               <br>
+               <table>
+                    <thead>
+                         <tr>
+                              <th>Tên sản phẩm</th>
+                              <th>Danh mục</th>
+                              <th>Đánh giá</th>
+                              <th>Mô tả</th>
+                         </tr>
+                    </thead>
+                    <tbody id="show">
+                         <tr>
+                              <td colspan="999">dont have any records</td>
+                         </tr>
+                    </tbody>
+               </table>
+          </div>
+     </div>
+     <br>
+     <div class="">
+          <a href="./index.html">go to admin</a>
+     </div>
+     <script src="./user.js" type="module"></script>
+</body>
+
+</html>

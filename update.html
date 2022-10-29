@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>show</title>
+     <style>
+          tr th,
+          tr td {
+               padding: 20px;
+               text-align: center;
+               border: 2px solid;
+          }
+
+          span {
+               display: block;
+          }
+     </style>
+</head>
+
+<body>
+     <h2>PH19078 - Nguyễn Văn Tuấn</h2>
+
+     <h3>Form cập nhật sản phẩm</h3>
+
+     <div class="">
+          <form method="post" id="form">
+               <div class="">
+                    <span>Tên sản phẩm</span>
+                    <input type="text" id="name" class="inpField">
+                    <span style="color: red"></span>
+               </div>
+
+               <div class="">
+                    <span>Danh mục</span>
+                    <select id="cate" class="inpField">
+                         <option>iphone</option>
+                         <option>android</option>
+                         <option>other</option>
+                    </select>
+                    <span style="color: red"></span>
+               </div>
+
+               <div class="" style="display: flex;">
+                    <div class="">
+                         <span>Giá gốc</span>
+                         <input type="number" id="rawprice" class="inpField">
+                         <span style="color: red"></span>
+                    </div>
+                    <div class="">
+                         <span>Giá sale</span>
+                         <input type="number" id="price" class="inpField">
+                         <span style="color: red"></span>
+                    </div>
+               </div>
+
+               <div class="">
+                    <span>Đánh giá</span>
+                    <select id="rating" class="inpField">
+                         <option>5</option>
+                         <option>4</option>
+                         <option>3</option>
+                         <option>2</option>
+                         <option>1</option>
+                    </select>
+                    <span style="color: red"></span>
+               </div>
+
+               <div class="">
+                    <span>Mô tả</span>
+                    <textarea name="" id="des" class="inpField" cols="30" rows="10"></textarea>
+                    <span style="color: red"></span>
+               </div>
+
+               <input type="submit" value="Lưu" onclick="return confirm('Xác nhận cập nhật?')">
+          </form>
+     </div>
+     <br>
+     <div class="">
+          <a href="./index.html">back</a>
+     </div>
+
+     <script src="./update.js" type="module"></script>
+</body>
+
+</html>
